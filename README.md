@@ -24,19 +24,20 @@ Automation of an ETL (Extract, Transform, Load) pipeline for Netflix movies and 
 ---
 
 ## 📂 **Repository Structure**
-├── dags/ # Airflow DAG definitions
-├── scripts/ # ETL scripts (Python)
-│ ├── extract.py # Data extraction
-│ ├── transform.py # Data transformation
-│ └── load.py # Load to S3 and PostgreSQL
-├── sql/ # SQL schemas & queries
-│ └── schema.sql # Table definitions
-├── config/ # Credentials management
-│ └── aws_credentials.py # AWS configuration (template)
-├── data/ # Datasets
-│ ├── raw/ # Raw data
-│ └── processed/ # Processed data
-└── requirements.txt # Dependencies
+
+├── dags/                  
+├── scripts/               
+│   ├── extract.py       
+│   ├── transform.py      
+│   └── load.py           
+├── sql/                  
+│   └── schema.sql        
+├── config/                
+│   └── aws_credentials.py 
+├── data/                  
+│   ├── raw/               
+│   └── processed/       
+└── requirements.txt       
 ---
 
 ## ⚙️ **Installation Guide**  
