@@ -1,4 +1,4 @@
-```markdown
+
 # Netflix Data Pipeline (ETL with Airflow, AWS S3, PostgreSQL)
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://www.python.org/)
